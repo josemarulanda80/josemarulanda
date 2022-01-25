@@ -1,26 +1,31 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<template >
+
+  <TableCheckbox/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TableCheckbox from './components/TableCheckbox.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+   
+    TableCheckbox
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: auto;
+  max-width:100%;
+  padding: 4vh 2vh;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background: #2c3e50;
+  height: 100vh;
+  font-size: 3vh;
 }
+
 </style>
